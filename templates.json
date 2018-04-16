@@ -6,7 +6,7 @@
             "kind": "Template",
             "apiVersion": "v1",
             "metadata": {
-                "name": "notebook-builder",
+                "name": "notebook-builder-manual",
                 "annotations": {
                     "openshift.io/display-name": "Jupyter Notebook Builder",
                     "description": "Template for creating customised Jupyter Notebook images.",
