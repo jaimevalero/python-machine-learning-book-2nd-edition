@@ -77,3 +77,4 @@ docs/_build/
 
 # PyBuilder
 target/
+jupyterhub_cookie_secret jupyterhub.sqlite
