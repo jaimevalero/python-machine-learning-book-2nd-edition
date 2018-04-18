@@ -35,7 +35,6 @@ Flask==0.12.2
 Flask-Cors==3.0.3
 gevent==1.2.2
 glob2==0.6
-gmpy2==2.0.8
 greenlet==0.4.12
 h5py==2.7.1
 heapdict==1.0.0
