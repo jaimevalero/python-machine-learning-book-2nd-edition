@@ -18,7 +18,7 @@ class NeuralNetMLP(object):
         Learning rate.
     shuffle : bool (default: True)
         Shuffles training data every epoch if True to prevent circles.
-    minibatche_size : int (default: 1)
+    minibatch_size : int (default: 1)
         Number of training samples per minibatch.
     seed : int (default: None)
         Random seed for initalizing weights and shuffling.
@@ -55,7 +55,7 @@ class NeuralNetMLP(object):
         onehot : array, shape = (n_samples, n_labels)
 
         """
-        onehot = np.zeros((n_classes, y.shape[0].astype(int)))
+        onehot = np.zeros((n_classes, y.shape[0]))
         for idx, val in enumerate(y):
             onehot[val, idx] = 1.
         return onehot.T
@@ -109,6 +109,21 @@ class NeuralNetMLP(object):
         term1 = -y_enc * (np.log(output))
         term2 = (1. - y_enc) * np.log(1. - output)
         cost = np.sum(term1 - term2) + L2_term
+
+        # If you are applying this cost function to other
+        # datasets where activation
+        # values maybe become more extreme (closer to zero or 1)
+        # you may encounter "ZeroDivisionError"s due to numerical
+        # instabilities in Python & NumPy for the current implementation.
+        # I.e., the code tries to evaluate log(0), which is undefined.
+        # To address this issue, you could add a small constant to the
+        # activation values that are passed to the log function.
+        #
+        # For example:
+        #
+        # term1 = -y_enc * (np.log(output + 1e-5))
+        # term2 = (1. - y_enc) * np.log(1. - output + 1e-5)
+
         return cost
 
     def predict(self, X):

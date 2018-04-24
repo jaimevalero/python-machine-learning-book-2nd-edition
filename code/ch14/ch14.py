@@ -4,7 +4,6 @@
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
-import tensorflow as tf
 
 # *Python Machine Learning 2nd Edition* by [Sebastian Raschka](https://sebastianraschka.com) and Vahid Mirjalili, Packt Publishing Ltd. 2017
 # 
@@ -433,7 +432,7 @@ with g.as_default():
         tf.random_normal(
             shape=(1, 1), 
             stddev=0.25),
-        name = 'weight')
+        name='weight')
     bias = tf.Variable(0.0, name='bias')
     
     ## build the model
@@ -504,7 +503,7 @@ with tf.Session(graph=g) as sess:
             
 
 plt.plot(training_costs)
-plt.savefig('images/14_04.png', dpi=300)
+# plt.savefig('images/14_04.png', dpi=300)
 
 
 # Executing with variable names:
@@ -604,7 +603,7 @@ plt.figure()
 plt.plot(x_train, y_train, 'bo')
 plt.plot(x_test, y_test, 'bo', alpha=0.3)
 plt.plot(x_arr, y_arr.T[:, 0], '-r', lw=3)
-plt.savefig('images/14_05.png', dpi=400)
+# plt.savefig('images/14_05.png', dpi=400)
 plt.show()
 
 
@@ -672,9 +671,9 @@ with g.as_default():
 
 g = tf.Graph()
 with g.as_default():
-    t1 = tf.ones(shape=(10, 1), 
+    t1 = tf.ones(shape=(5, 1), 
                  dtype=tf.float32, name='t1')
-    t2 = tf.zeros(shape=(10, 1),
+    t2 = tf.zeros(shape=(5, 1),
                  dtype=tf.float32, name='t2')
     print(t1)
     print(t2)
@@ -873,6 +872,11 @@ with tf.Session(graph = g) as sess:
 # ---
 # 
 # Readers may ignore the next cell.
+
+
+
+
+
 
 
 
