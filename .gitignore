@@ -79,4 +79,3 @@ docs/_build/
 target/
 jupyterhub_cookie_secret jupyterhub.sqlite
 ejercicios/datasets/Users_Tag_Matrix.data
-ejercicios/datasets/Users_Tag_Matrix.data
