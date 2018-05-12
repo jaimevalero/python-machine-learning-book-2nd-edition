@@ -1,0 +1,94 @@
+[I 2018-05-10 08:42:49.631 JupyterHub app:834] Loading cookie_secret from /home/curso/python-machine-learning-book-2nd-edition/jupyterhub_cookie_secret
+[W 2018-05-10 08:42:49.981 JupyterHub app:955] No admin users, admin interface will be unavailable.
+[W 2018-05-10 08:42:49.981 JupyterHub app:956] Add any administrative users to `c.Authenticator.admin_users` in config.
+[I 2018-05-10 08:42:49.981 JupyterHub app:983] Not using whitelist. Any authenticated user will be allowed.
+[I 2018-05-10 08:42:50.020 JupyterHub app:1528] Hub API listening on http://127.0.0.1:8081/hub/
+[W 2018-05-10 08:42:50.021 JupyterHub proxy:415] 
+    Generating CONFIGPROXY_AUTH_TOKEN. Restarting the Hub will require restarting the proxy.
+    Set CONFIGPROXY_AUTH_TOKEN env or JupyterHub.proxy_auth_token config to avoid this message.
+    
+[W 2018-05-10 08:42:50.021 JupyterHub proxy:456] Running JupyterHub without SSL.  I hope there is SSL termination happening somewhere else...
+[I 2018-05-10 08:42:50.022 JupyterHub proxy:458] Starting proxy @ http://*:8000/
+08:42:50.712 - info: [ConfigProxy] Proxying http://*:8000 to (no default)
+08:42:50.715 - info: [ConfigProxy] Proxy API at http://127.0.0.1:8001/api/routes
+[W 2018-05-10 08:42:51.083 JupyterHub proxy:304] Adding missing default route
+08:42:51.083 - info: [ConfigProxy] 200 GET /api/routes 
+[I 2018-05-10 08:42:51.083 JupyterHub proxy:370] Adding default route for Hub: / => http://127.0.0.1:8081
+08:42:51.090 - info: [ConfigProxy] Adding route / -> http://127.0.0.1:8081
+08:42:51.091 - info: [ConfigProxy] 201 POST /api/routes/ 
+[I 2018-05-10 08:42:51.092 JupyterHub app:1581] JupyterHub is now running at http://:8000/
+[I 2018-05-10 08:43:07.527 JupyterHub log:122] 302 GET / → /hub (@::ffff:10.95.253.93) 1.18ms
+[I 2018-05-10 08:43:07.550 JupyterHub log:122] 302 GET /hub → /hub/login (@::ffff:10.95.253.93) 0.60ms
+[W 2018-05-10 08:43:07.569 JupyterHub base:202] Invalid or expired cookie token
+[W 2018-05-10 08:43:07.570 JupyterHub base:202] Invalid or expired cookie token
+[W 2018-05-10 08:43:07.744 JupyterHub base:202] Invalid or expired cookie token
+[I 2018-05-10 08:43:07.744 JupyterHub log:122] 200 GET /hub/login (@::ffff:10.95.253.93) 174.89ms
+[E 2018-05-10 08:43:51.042 JupyterHub proxy:509] Proxy stopped with exit code -9
+[W 2018-05-10 08:43:51.044 JupyterHub proxy:456] Running JupyterHub without SSL.  I hope there is SSL termination happening somewhere else...
+[I 2018-05-10 08:43:51.044 JupyterHub proxy:458] Starting proxy @ http://*:8000/
+08:43:51.270 - info: [ConfigProxy] Proxying http://*:8000 to (no default)
+08:43:51.273 - info: [ConfigProxy] Proxy API at http://127.0.0.1:8001/api/routes
+[I 2018-05-10 08:43:51.941 JupyterHub proxy:375] Setting up routes on new proxy
+[I 2018-05-10 08:43:51.941 JupyterHub proxy:370] Adding default route for Hub: / => http://127.0.0.1:8081
+08:43:51.956 - info: [ConfigProxy] Adding route / -> http://127.0.0.1:8081
+08:43:51.959 - info: [ConfigProxy] 201 POST /api/routes/ 
+[I 2018-05-10 08:43:51.961 JupyterHub proxy:379] New proxy back up and good to go
+[E 2018-05-10 08:44:06.044 JupyterHub proxy:509] Proxy stopped with exit code -9
+[W 2018-05-10 08:44:06.045 JupyterHub proxy:456] Running JupyterHub without SSL.  I hope there is SSL termination happening somewhere else...
+[I 2018-05-10 08:44:06.046 JupyterHub proxy:458] Starting proxy @ http://*:8000/
+08:44:06.261 - info: [ConfigProxy] Proxying http://*:8000 to (no default)
+08:44:06.265 - info: [ConfigProxy] Proxy API at http://127.0.0.1:8001/api/routes
+[I 2018-05-10 08:44:06.377 JupyterHub proxy:375] Setting up routes on new proxy
+[I 2018-05-10 08:44:06.377 JupyterHub proxy:370] Adding default route for Hub: / => http://127.0.0.1:8081
+08:44:06.394 - info: [ConfigProxy] Adding route / -> http://127.0.0.1:8081
+08:44:06.398 - info: [ConfigProxy] 201 POST /api/routes/ 
+[I 2018-05-10 08:44:06.400 JupyterHub proxy:379] New proxy back up and good to go
+[I 2018-05-10 08:44:07.060 JupyterHub app:834] Loading cookie_secret from /home/curso/python-machine-learning-book-2nd-edition/jupyterhub_cookie_secret
+[W 2018-05-10 08:44:07.097 JupyterHub app:955] No admin users, admin interface will be unavailable.
+[W 2018-05-10 08:44:07.097 JupyterHub app:956] Add any administrative users to `c.Authenticator.admin_users` in config.
+[I 2018-05-10 08:44:07.097 JupyterHub app:983] Not using whitelist. Any authenticated user will be allowed.
+[E 2018-05-10 08:44:07.137 JupyterHub app:1525] Failed to bind hub to http://127.0.0.1:8081/hub/
+[E 2018-05-10 08:44:07.138 JupyterHub app:1623]
+    Traceback (most recent call last):
+      File "/root/anaconda2/envs/py36/lib/python3.6/site-packages/jupyterhub/app.py", line 1621, in launch_instance_async
+        yield self.start()
+      File "/root/anaconda2/envs/py36/lib/python3.6/site-packages/jupyterhub/app.py", line 1523, in start
+        self.http_server.listen(self.hub_port, address=self.hub_ip)
+      File "/root/anaconda2/envs/py36/lib/python3.6/site-packages/tornado/tcpserver.py", line 142, in listen
+        sockets = bind_sockets(port, address=address)
+      File "/root/anaconda2/envs/py36/lib/python3.6/site-packages/tornado/netutil.py", line 197, in bind_sockets
+        sock.bind(sockaddr)
+    OSError: [Errno 98] Address already in use
+    
+[C 2018-05-10 08:44:25.373 JupyterHub app:1590] Received SIGTERM, shutting down
+[I 2018-05-10 08:44:25.386 JupyterHub app:1399] Cleaning up single-user servers...
+[I 2018-05-10 08:44:25.387 JupyterHub proxy:496] Cleaning up proxy[3224]...
+[I 2018-05-10 08:44:25.388 JupyterHub app:1431] ...done
+[E 2018-05-10 08:44:26.044 JupyterHub proxy:509] Proxy stopped with exit code -1
+[W 2018-05-10 08:44:26.045 JupyterHub proxy:456] Running JupyterHub without SSL.  I hope there is SSL termination happening somewhere else...
+[I 2018-05-10 08:44:26.045 JupyterHub proxy:458] Starting proxy @ http://*:8000/
+08:44:26.260 - info: [ConfigProxy] Proxying http://*:8000 to (no default)
+08:44:26.263 - info: [ConfigProxy] Proxy API at http://127.0.0.1:8001/api/routes
+[I 2018-05-10 08:48:18.418 JupyterHub app:834] Loading cookie_secret from /home/curso/python-machine-learning-book-2nd-edition/jupyterhub_cookie_secret
+[W 2018-05-10 08:48:18.687 JupyterHub app:955] No admin users, admin interface will be unavailable.
+[W 2018-05-10 08:48:18.687 JupyterHub app:956] Add any administrative users to `c.Authenticator.admin_users` in config.
+[I 2018-05-10 08:48:18.687 JupyterHub app:983] Not using whitelist. Any authenticated user will be allowed.
+[I 2018-05-10 08:48:18.736 JupyterHub app:1528] Hub API listening on http://127.0.0.1:8081/hub/
+[W 2018-05-10 08:48:18.738 JupyterHub proxy:415] 
+    Generating CONFIGPROXY_AUTH_TOKEN. Restarting the Hub will require restarting the proxy.
+    Set CONFIGPROXY_AUTH_TOKEN env or JupyterHub.proxy_auth_token config to avoid this message.
+    
+[W 2018-05-10 08:48:18.738 JupyterHub proxy:456] Running JupyterHub without SSL.  I hope there is SSL termination happening somewhere else...
+[I 2018-05-10 08:48:18.738 JupyterHub proxy:458] Starting proxy @ http://*:8000/
+08:48:19.358 - info: [ConfigProxy] Proxying http://*:8000 to (no default)
+08:48:19.364 - info: [ConfigProxy] Proxy API at http://127.0.0.1:8001/api/routes
+[W 2018-05-10 08:48:19.677 JupyterHub proxy:304] Adding missing default route
+[I 2018-05-10 08:48:19.677 JupyterHub proxy:370] Adding default route for Hub: / => http://127.0.0.1:8081
+08:48:19.677 - info: [ConfigProxy] 200 GET /api/routes 
+08:48:19.684 - info: [ConfigProxy] Adding route / -> http://127.0.0.1:8081
+08:48:19.686 - info: [ConfigProxy] 201 POST /api/routes/ 
+[I 2018-05-10 08:48:19.686 JupyterHub app:1581] JupyterHub is now running at http://:8000/
+[C 2018-05-10 08:49:06.720 JupyterHub app:1590] Received SIGTERM, shutting down
+[I 2018-05-10 08:49:06.727 JupyterHub app:1399] Cleaning up single-user servers...
+[I 2018-05-10 08:49:06.727 JupyterHub proxy:496] Cleaning up proxy[2835]...
+[I 2018-05-10 08:49:06.729 JupyterHub app:1431] ...done
