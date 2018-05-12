@@ -77,5 +77,6 @@ docs/_build/
 
 # PyBuilder
 target/
-jupyterhub_cookie_secret jupyterhub.sqlite
+jupyterhub_cookie_secret 
+jupyterhub.sqlite
 ejercicios/datasets/Users_Tag_Matrix.data
