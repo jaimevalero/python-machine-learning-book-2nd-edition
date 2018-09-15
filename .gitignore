@@ -15,6 +15,7 @@ docs/equations/*.log
 docs/equations/*.out
 docs/equations/*.synctex.gz
 code/ch08/aclImdb/
+models/
 
 .ipynb_checkpoints
 .DS_Store
