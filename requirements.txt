@@ -177,3 +177,7 @@ prophet==0.1.1
 Quandl==3.3.0
 fbprophet==0.2.1
 vaderSentiment==3.2.1
+opencv-python
+gensim 
+gensim 
+pyLDAvis
