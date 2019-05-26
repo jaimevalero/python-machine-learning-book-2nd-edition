@@ -5,14 +5,14 @@ Este es un curso de introducción al Machine Learning en python.
 
 Cada fichero es una lección. Se pueden ver desde aquí en modo lectura, pero recomiendo verlo desde un jupyter notebook. Pe, desde binder https://mybinder.org/v2/gh/jaimevalero/python-machine-learning-book-2nd-edition/master?filepath=ejercicios
 
-Anímate, esta disciplina tiene interesantes salidas profesionales, y además es muy chula :-)
+Anímate, esta disciplina tiene interesantes salidas profesionales, y además es muy chula :-).
 
 ## Temario
-
 
 [00 - Introducción al ML](https://github.com/jaimevalero/python-machine-learning-book-2nd-edition/blob/master/ejercicios/Ejercicio%2000%20-%20Introducci%C3%B3n.ipynb)
 
 [01 - Manejo básico de un DataFrame](https://github.com/jaimevalero/python-machine-learning-book-2nd-edition/blob/master/ejercicios/Ejercicio%2001%20-%20Manejo%20DataFrame.ipynb) 
+
   [Soluciones](https://github.com/jaimevalero/python-machine-learning-book-2nd-edition/blob/master/ejercicios/Ejercicio%2001%20-%20Soluciones.ipynb)
 
 [02 - Primer modelo](https://github.com/jaimevalero/python-machine-learning-book-2nd-edition/blob/master/ejercicios/Ejercicio%2002%20-%20Primer%20modelo.ipynb)
@@ -51,4 +51,3 @@ Anímate, esta disciplina tiene interesantes salidas profesionales, y además es
 
 [18 - Computer vision](https://github.com/jaimevalero/python-machine-learning-book-2nd-edition/blob/master/ejercicios/Ejercicio%2018%20-%20Computer%20vision.ipynb)
 
-https://mybinder.org/v2/gh/jaimevalero/python-machine-learning-book-2nd-edition/master?filepath=ejercicios
