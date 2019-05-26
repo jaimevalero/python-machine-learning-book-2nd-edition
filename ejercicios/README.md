@@ -5,7 +5,8 @@ Este es un curso de introducción al Machine Learning en python.
 
 Cada fichero es una lección. Se pueden ver desde aquí en modo lectura, pero recomiendo verlo desde un jupyter notebook. Pe, desde binder https://mybinder.org/v2/gh/jaimevalero/python-machine-learning-book-2nd-edition/master?filepath=ejercicios
 
-00 - Introducción al ML
+00 - [Introducción al ML](https://github.com/jaimevalero/python-machine-learning-book-2nd-edition/blob/master/ejercicios/Ejercicio%2000%20-%20Introducci%C3%B3n.ipynb)
+
 01 - Manejo básico de un DataFrame Soluciones
 02 - Primer modelo
 02 - Soluciones	
